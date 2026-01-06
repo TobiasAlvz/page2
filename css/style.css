@@ -1,0 +1,76 @@
+.card{
+    background-color: #292F33;
+}
+.sidebar .nav-link {
+  color: #8BABB5;
+  
+}
+
+.sidebar .nav-link:hover {
+  color: #68aec4;
+}
+
+
+#hr{
+    color: white;
+}
+
+/* FEED */
+.feed .card {
+  background-color: #252b31;
+  border: 1px solid #2f363d;
+  color: #fff;
+}
+
+.feed .card-header,
+.feed .card-footer {
+  background-color: transparent;
+  border-color: #2f363d;
+}
+
+.feed .card-body {
+  color: #fff;
+}
+
+/* INPUT DO POST */
+.feed .form-control {
+  background-color: #1e2328;
+  border: 1px solid #2f363d;
+  color: #9aa4ad;
+}
+
+.feed .form-control::placeholder {
+  color: #9aa4ad;
+}
+
+.feed .form-control:focus {
+  background-color: #1e2328;
+  color: #fff;
+  box-shadow: none;
+  border-color: #36cbf1;
+}
+
+/* TEXTO SECUNDÁRIO */
+.feed .text-secondary {
+  color: #9aa4ad !important;
+}
+
+/* BOTÕES DO FEED */
+.btn-invisible {
+  background: transparent;
+  border: none;
+  color: #9aa4ad;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.btn-invisible:hover {
+  background-color: #2b3239;
+  color: #fff;
+}
+
+/* HR PERSONALIZADO */
+#hr {
+  border-color: white;
+}
+
+
