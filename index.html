@@ -17,7 +17,7 @@
 
         <!-- CSS customizado -->
         <link rel="stylesheet" href="css/style.css">
-        <!-- https://complex-humor-1df.notion.site/Exercicio-2-2e0cc8c2db96803d975efe9937826422 -->
+        <!-- https://complex-humor-1df.notion.site/2e1cc8c2db96808d8243e07676004769?pvs=73 -->
     </head>
     <body class="min-vh-100">
 
@@ -80,7 +80,8 @@
                                 <li>
                                     <a id="themeSwitcher" class="dropdown-item"
                                         href="#">
-                                        <i class="bi bi-moon-stars"></i> Dark Mode
+                                        <i class="bi bi-moon-stars"></i> Dark
+                                        Mode
                                     </a>
                                 </li>
                                 <li><hr class="dropdown-divider"></li>
@@ -103,7 +104,7 @@
                     <div class="col-md-3 d-none d-md-block sidebar ">
                         <div class="card shadow-sm rounded-4">
                             <div class="card-body">
-                                <h5 class="text-light">Navigation</h5>
+                                <h5>Navigation</h5>
                                 <ul class="nav flex-column gap-1 fs-5">
                                     <li><a class="nav-link" href="#"><i
                                                 class="bi bi-person"></i>
@@ -174,7 +175,7 @@
                                 <img src="https://unsplash.it/40"
                                     class="rounded-circle" width="40">
                                 <div>
-                                    <strong class="text-light">John Doe</strong>
+                                    <strong>John Doe</strong>
                                     <div class="text-secondary small">2 hours
                                         ago</div>
                                 </div>
@@ -200,7 +201,7 @@
                     <aside class="col-md-3 d-none d-md-block rounded-2">
                         <div class="card shadow-sm mb-3">
                             <div class="card-body">
-                                <h5 class="text-light">Trends</h5>
+                                <h5>Trends</h5>
                                 <ul class="list-unstyled lista">
                                     <li><a href>#OpenSource</a></li>
                                     <li><a href>#Raect</a></li>
@@ -244,6 +245,32 @@
                 </div>
 
             </div>
+
+            <!-- MODAL -->
+            <div class="modal fade" id="postModal" tabindex="-1">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">New Post</h5>
+                            <button class="btn-close"
+                                data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <textarea id="writePostInput" class="form-control"
+                                rows="4"></textarea>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary"
+                                data-bs-dismiss="modal">Close</button>
+                            <button class="btn btn-primary">Publish</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="bg-body-tertiary text-center py-3 fixed-bottom">
+                &copy; 2025 DevHub
+            </footer>
 
             <!-- Bootstrap JS -->
             <script
