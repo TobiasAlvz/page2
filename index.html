@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,12 +19,12 @@
         <link rel="stylesheet" href="css/style.css">
         <!-- https://complex-humor-1df.notion.site/Exercicio-2-2e0cc8c2db96803d975efe9937826422 -->
     </head>
-    <body class="min-vh-100 bg-dark">
+    <body class="min-vh-100">
 
         <!-- NAVBAR -->
         <header>
             <nav
-                class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom">
+                class="navbar navbar-expand-lg border-bottom">
                 <div class="container">
                     <a class="navbar-brand fw-bold" href="#">DevHub</a>
 
@@ -80,8 +80,7 @@
                                 <li>
                                     <a id="themeSwitcher" class="dropdown-item"
                                         href="#">
-                                        <i class="bi bi-moon-stars"></i> Switch
-                                        theme
+                                        <i class="bi bi-moon-stars"></i> Dark Mode
                                     </a>
                                 </li>
                                 <li><hr class="dropdown-divider"></li>
@@ -197,6 +196,51 @@
                         </div>
                     </main>
 
+                    <!-- SIDEBAR DIREITA -->
+                    <aside class="col-md-3 d-none d-md-block rounded-2">
+                        <div class="card shadow-sm mb-3">
+                            <div class="card-body">
+                                <h5 class="text-light">Trends</h5>
+                                <ul class="list-unstyled lista">
+                                    <li><a href>#OpenSource</a></li>
+                                    <li><a href>#Raect</a></li>
+                                    <li><a href>#Css</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div id="carouselAds" class="carousel slide caroulsel1"
+                            data-bs-ride="carousel">
+                            <div
+                                class="carousel-inner rounded-4 overflow-hidden">
+
+                                <div class="carousel-item active">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1557804506-669a67965ba0"
+                                        class="d-block w-100"
+                                        alt="Banner 1"
+                                        style="height: 220px; object-fit: cover;">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+                                        class="d-block w-100"
+                                        alt="Banner 2"
+                                        style="height: 220px; object-fit: cover;">
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img
+                                        src="https://images.unsplash.com/photo-1519389950473-47ba0277781c"
+                                        class="d-block w-100"
+                                        alt="Banner 3"
+                                        style="height: 220px; object-fit: cover;">
+                                </div>
+                            </div>
+                        </div>
+
+                    </aside>
                 </div>
 
             </div>

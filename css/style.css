@@ -1,18 +1,16 @@
-.card{
-    background-color: #292F33;
+.card {
+  background-color: #292f33;
 }
 .sidebar .nav-link {
-  color: #8BABB5;
-  
+  color: #8babb5;
 }
 
 .sidebar .nav-link:hover {
   color: #68aec4;
 }
 
-
-#hr{
-    color: white;
+#hr {
+  color: white;
 }
 
 /* FEED */
@@ -73,4 +71,78 @@
   border-color: white;
 }
 
+.list-unstyled {
+  color: #36cbf1;
+}
 
+.caroulsel1 {
+  background-color: #292f33;
+}
+
+/* ===== DARK ===== */
+body.dark {
+  background: #1e2328;
+  color: white;
+}
+
+body.dark .card {
+  background: #252b31;
+  color: white;
+}
+
+body.dark .sidebar .nav-link {
+  color: #8babb5;
+}
+
+body.dark .sidebar .nav-link:hover {
+  color: #68aec4;
+}
+
+body.dark .form-control {
+  background: #1e2328;
+  color: white;
+  border: 1px solid #2f363d;
+}
+
+body.dark .btn-invisible {
+  color: #9aa4ad;
+}
+
+body.dark .btn-invisible:hover {
+  background: #2b3239;
+  color: white;
+}
+
+/* ===== LIGHT ===== */
+body.light {
+  background: #f8f9fa;
+  color: #212529;
+}
+
+body.light .card {
+  background: white;
+  color: #212529;
+}
+
+body.light .sidebar .nav-link {
+  color: #495057;
+}
+
+body.light .sidebar .nav-link:hover {
+  color: #0d6efd;
+}
+
+body.light .form-control {
+  background: white;
+  color: #212529;
+  border: 1px solid #ced4da;
+}
+
+body.light .btn-invisible {
+  color: #6c757d;
+}
+
+body.light .btn-invisible:hover {
+  background: #e9ecef;
+  color: #212529;
+}
